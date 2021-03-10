@@ -1,13 +1,9 @@
-html {
-    height: 100%;
-}
-
 body {
-    height: 97.5%;
+    height: 97.5vh;
 }
 
 .onglet {
-    display: block;
+    display: flex;
     height: 12%;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -19,6 +15,12 @@ body {
 .onglet a {
     color: #000000;
     text-decoration: none;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px;
 }
 
 .onglet_n {
@@ -29,7 +31,6 @@ body {
 .onglet_y {
     background: #dddddd;
     border-right: 0px solid black;
-    padding-right: 4px;
 }
 
 .onglets_html {

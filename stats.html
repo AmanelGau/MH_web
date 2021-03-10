@@ -4,22 +4,99 @@
 <head>
     <meta charset="utf-8">
     <title>Monster Hunter Web</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="statsStyle.css">
 </head>
 
 <body>
     <div class="onglets_html">
         <div class="onglets">
-            <div class="onglet_y onglet"><a class="stats" href="stats.html">stats</a></div>
-            <div class="onglet_n onglet"><a class="skills" href="skills.html">skills</a></div>
-            <div class="onglet_n onglet"><a class="equipement" href="equipement.html">equipement</a></div>
-            <div class="onglet_n onglet"><a class="inventory" href="inventory.html">inventory</a></div>
+            <!-- A modifier : remplacer les écriture par des images 
+            stats : bras musclé
+            skills : épée avec trainée
+            equipement : armure
+            inventory : sac à dos
+            -->
+            <div class="onglet_y onglet"><a class="lienStats" href="stats.html">stats</a></div>
+            <div class="onglet_n onglet"><a class="lienSkills" href="skills.html">skills</a></div>
+            <div class="onglet_n onglet"><a class="lienEquipement" href="equipement.html">equipement</a></div>
+            <div class="onglet_n onglet"><a class="lienInventory" href="inventory.html">inventory</a></div>
         </div>
         <div class="contenu">
             <h1>Mes Stats</h1>
+            <div class="stats">
+                <div class="stat force">
+                    <h1>Force</h1>
+                    <div class="statBox">
+                        <input id="buttonMinusForce" type="button" value="-">
+                        <h2 id="affichageStatForce">10</h2>
+                        <input id="buttonPlusForce" type="button" value="+">
+                    </div>
+                    <p>5/2/3</p>
+                    <h4>60%</h4>
+                </div>
+
+                <div class="stat resistance">
+                    <h1>Resistance</h1>
+                    <div class="statBox">
+                        <input id="buttonMinusResistance" type="button" value="-">
+                        <h2 id="affichageStatResistance">10</h2>
+                        <input id="buttonPlusResistance" type="button" value="+">
+                    </div>
+                    <p>5/2/3</p>
+                    <h4>60%</h4>
+                </div>
+
+                <div class="stat agilite">
+                    <h1>Agilité</h1>
+                    <div class="statBox">
+                        <input id="buttonMinusAgilite" type="button" value="-">
+                        <h2 id="affichageStatAgilite">10</h2>
+                        <input id="buttonPlusAgilite" type="button" value="+">
+                    </div>
+                    <p>5/2/3</p>
+                    <h4>60%</h4>
+                </div>
+
+                <div class="stat chance">
+                    <h1>Chance</h1>
+                    <div class="statBox">
+                        <input id="buttonMinusChance" type="button" value="-">
+                        <h2 id="affichageStatChance">10</h2>
+                        <input id="buttonPlusChance" type="button" value="+">
+                    </div>
+                    <p>5/2/3</p>
+                    <h4>60%</h4>
+                </div>
+
+                <div class="stat exploration">
+                    <h1>Exploration</h1>
+                    <div class="statBox">
+                        <input id="buttonMinusExploration" type="button" value="-">
+                        <h2 id="affichageStatExploration"> 10</h2>
+                        <input id="buttonPlusExploration" type="button" value="+">
+                    </div>
+                    <p>5/2/3</p>
+                    <h4>60%</h4>
+                </div>
+
+                <div class="stat esprit">
+                    <h1>Esprit</h1>
+                    <div class="statBox">
+                        <input id="buttonMinusEsprit" type="button" value="-">
+                        <h2 id="affichageStatEsprit">10</h2>
+                        <input id="buttonPlusEsprit" type="button" value="+">
+                    </div>
+                    <p>5/2/3</p>
+                    <h4>60%</h4>
+                </div>
+            </div>
+            <footer>
+
+            </footer>
         </div>
     </div>
 </body>
+
+<script src="statsScript.js"></script>
 
 </html>

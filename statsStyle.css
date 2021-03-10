@@ -1,0 +1,49 @@
+@import url(style.css);
+.stats {
+    display: flex;
+    min-height: 80%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.stat {
+    display: flex;
+    min-width: 30%;
+    min-height: 40%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stat p,
+.stat h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.statBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.statBox input {
+    width: 1em;
+    padding: 0;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.statBox h2 {
+    border: 1px solid black;
+    width: 2rem;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
